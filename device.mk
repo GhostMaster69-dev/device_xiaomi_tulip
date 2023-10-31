@@ -62,7 +62,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
-    AvoidAppsInCutoutOverlay
+    AvoidAppsInCutoutOverlay \
+    TulipFrameworksBaseOverlay \
+    TulipSystemUIOverlay
 
 # Ramdisk
 PRODUCT_PACKAGES += \
