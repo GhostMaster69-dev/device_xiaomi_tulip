@@ -40,6 +40,10 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/xiaomi/tulip.config
 TARGET_KERNEL_SOURCE := kernel/xiaomi/tulip
+TARGET_KERNEL_CLANG_VERSION := latest
+TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang-$(TARGET_KERNEL_CLANG_VERSION)
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX_ARM32 := arm-linux-gnueabi-
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
