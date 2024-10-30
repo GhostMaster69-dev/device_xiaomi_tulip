@@ -39,6 +39,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/xiaomi/tulip.config
+TARGET_KERNEL_SOURCE := kernel/xiaomi/tulip
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
